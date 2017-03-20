@@ -5,14 +5,12 @@ import java.util.Scanner;
  */
 public class Block2_HW1 {
     public static void main(String[] args){
-        System.out.println("Введите целое число от 5 до 155");
-        Scanner a = new Scanner(System.in);
-        int b = a.nextInt();
-        if (b >=25 && b <=100){
-        System.out.println("Число "+b+" содержится в интервале 25, 100");
+        int a= (int)(Math.random()*150+1)+5;
+        if(a<=25||a>=100){
+            System.out.println("Число "+a+" не содержится в интервале (25,100)");
         }
         else {
-        System.out.println("Введите целое число от 5 до 155");
+            System.out.println("Число "+a+" содержится в интервале (25,100)");
         }
     }
     }

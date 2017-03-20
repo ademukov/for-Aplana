@@ -3,7 +3,7 @@
  */
 public class Block2_HW5 {
     public static void main(String[] args){
-        for(int a=1; a<56; a=a+1){
+        for(int a=1; a<56; a=a+2){
             System.out.print(a+" ");
         }
     }
